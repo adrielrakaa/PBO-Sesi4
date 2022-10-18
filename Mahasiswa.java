@@ -1,0 +1,14 @@
+package Sesi4;
+
+public class Mahasiswa {
+    
+    String nama;
+
+    Mahasiswa(String nama){
+        this.nama = nama;
+    }
+
+    void info(){
+        System.out.println("Nama Mahasiswa \t : " + this.nama);
+    }
+}
